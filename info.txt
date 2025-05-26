@@ -1,0 +1,29 @@
+https://retoolapi.dev/I9Lsrg/data
+See all available endpoints here (generated with json-server).
+Endpoint URL
+
+HTTP method endpoints
+
+GET
+/I9Lsrg/data
+
+GET filter
+/I9Lsrg/data?nombre=value
+
+GET by id
+/I9Lsrg/data/1
+
+GET paginate
+/I9Lsrg/data?_page=2&_limit=10
+
+POST
+/I9Lsrg/data
+
+PUT
+/I9Lsrg/data/1
+
+PATCH
+/I9Lsrg/data/1
+
+DELETE
+/I9Lsrg/data/1
