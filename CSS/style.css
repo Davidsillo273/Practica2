@@ -1,0 +1,33 @@
+.add-button{
+    position: fixed; /*El botón queda flotante*/
+
+    bottom: 30px; /*Desde abajo 20px*/
+
+    right: 25px; /*Desde la derecha 20px*/
+
+    background-color: green;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 100%;
+
+    width: 70px;
+    height: 70px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.4s; /*Animación que durará 0.4s*/
+
+    z-index: 1001; /*Para que el botón siempre quede encima de todo*/
+}
+
+.add-button:hover{
+    transform: scale(1.1);
+}
